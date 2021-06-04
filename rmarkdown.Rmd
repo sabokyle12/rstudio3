@@ -15,6 +15,9 @@ x <- read_csv("https://raw.githubusercontent.com/Financial-Times/police-miscondu
 ```
 
 ```{r}
-x
+view(x)
+
+x %>%
+  mutate()
 ```
 
